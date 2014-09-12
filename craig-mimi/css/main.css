@@ -5,15 +5,14 @@
   border-radius: 50%;
 }
 
-button {
-  display: inline-block;
-  width: 50%;
-}
-
 .github, .contact {
   text-align: center;
 }
 
+button {
+  display: inline-block;
+  width: 50%;
+}
 
 
 

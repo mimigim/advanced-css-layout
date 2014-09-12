@@ -1,16 +1,18 @@
-/* Base 960 Grid */
+/* BASE 960 GRID */
 .container {
     position: relative; width: 60em; margin: 0 auto; padding: 0;
 }
+
 .container .column,
 .container .columns {
     float: left; display: inline; margin-left: 0.625em; margin-right: 0.625em;
 }
+
 .row {
     margin-bottom: 1.25em;
 }
 
-/* Base Grid */
+/* BASE GRID */
 .container .eight.columns {
     width: 28.75em;
 }
@@ -23,31 +25,33 @@
     font-size: 2em;
 }
 
-/* #Tablet (Portrait) */
-/* Note: Design for a width of 768px */
+/* #TABLET (PORTRAIT) 768PX */
 @media only screen and (min-width: 48em) and (max-width: 59.938em) {
     .container {
         width: 48em;
     }
+
     .container .column,
     .container .columns {
         margin-left: 0.625em; margin-right: 0.625em;
     }
+
     .container .eight.columns {
         width: 22.75em;
     }
 }
 
-/* #Mobile (Portrait) */
-/* Note: Design for a width of 320px */
+/* #MOBILE (PORTRAIT) 320PX */
 @media only screen and (max-width: 47.938em) {
     .container {
         width: 18.75em;
     }
+
     .container .columns,
     .container .column {
         margin: 0;
     }
+
     .container .one.column,
     .container .one.columns,
     .container .two.columns,
@@ -79,17 +83,18 @@
     }
 }
 
-/* #Mobile (Landscape) */
-/* Note: Design for a width of 480px */
+/* #MOBILE (LANDSCAPE) 480PX */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 30em) and (max-width: 47.938em) {
     .container {
         width: 26.25em;
     }
+
     .container .columns,
     .container .column {
         margin: 0;
     }
+
     .container .one.column,
     .container .one.columns,
     .container .two.columns,
@@ -113,7 +118,7 @@
     }
 }
 
-/* #Clearing */
+/* #CLEARING */
 .container:after {
     content: "\0020"; display: block; height: 0; clear: both; visibility: hidden;
 }
