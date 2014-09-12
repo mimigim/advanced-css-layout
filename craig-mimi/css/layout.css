@@ -1,13 +1,13 @@
 /* NAVIGATION */
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-content: flex-end;
-    align-items: stretch;
-    font-size: 1.5em;
-    padding: 2em 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: stretch;
+  font-size: 1.5em;
+  padding: 1em;
 }
 
 .flex-item {
@@ -32,15 +32,18 @@ nav {
   color: red;
 }
 
-/* FOOTER */
-footer {
-  text-align: center;
+.contact, .github {
+  margin-top: 20%;
 }
 
-footer p {
+/* FOOTER */
+footer {
   background-color: #990;
   padding: 3em 0 1em;
   margin-top: 3em;
+  text-align: center;
+  width: 100%;
+  margin-top: 15%;
 }
 
 
