@@ -33,7 +33,8 @@ nav {
 }
 
 .contact, .github {
-  margin-top: 20%;
+  padding-bottom: 15%;
+  margin-top: 15%;
 }
 
 main {
@@ -47,7 +48,7 @@ footer {
   margin-top: 3em;
   text-align: center;
   width: 100%;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 
