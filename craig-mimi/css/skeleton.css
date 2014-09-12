@@ -15,6 +15,14 @@
     width: 28.75em;
 }
 
+.icon-smiley {
+    font-size: 1.5em;
+}
+
+.icon-github {
+    font-size: 2em;
+}
+
 /* #Tablet (Portrait) */
 /* Note: Design for a width of 768px */
 @media only screen and (min-width: 48em) and (max-width: 59.938em) {
@@ -60,6 +68,14 @@
     .container .one-third.column,
     .container .two-thirds.column {
         width: 18.750em;
+    }
+
+    .icon-smiley {
+        font-size: 500%;
+    }
+
+    .icon-github {
+        font-size: 500%;
     }
 }
 
