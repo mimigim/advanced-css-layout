@@ -1,5 +1,6 @@
 /* MAIN SECTION */
 .github-image {
+  padding-top: 0.5em;
   width: 20%;
   border-radius: 50%;
 }
